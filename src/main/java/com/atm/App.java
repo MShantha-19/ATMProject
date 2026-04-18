@@ -9,7 +9,7 @@ public class App {
         int pin = 1234;
         double balance = 5000;
 
-        System.out.print("Enter ATM PIN   : ");
+        System.out.print("Enter ATM PIN: ");
         int enteredPin = sc.nextInt();
 
         if (enteredPin == pin) {
